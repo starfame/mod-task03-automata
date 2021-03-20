@@ -4,7 +4,7 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/UNN-IASR/mod-task03-automata)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/UNN-IASR/mod-task03-automata)
 
-![Relative date](https://img.shields.io/date/1607299199)
+![Relative date](https://img.shields.io/date/1617569974)
 
 ## Задача №1
 
