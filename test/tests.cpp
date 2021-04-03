@@ -1,6 +1,7 @@
 #include <gtest/gtest.h>
 #include "Automata.h"
 
+// остальные кейсы я рассмотрел в main
 TEST(task, test1)
 {
 	Automata hot_drinks_machine = Automata();
@@ -9,5 +10,3 @@ TEST(task, test1)
 	int result = hot_drinks_machine.choice(4);
 	EXPECT_EQ(0, result);
 }
-
-// остальные кейсы я рассмотрел в main
