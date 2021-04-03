@@ -1,4 +1,4 @@
-#progma once
+#pragma once
 #include <string>
 
 using namespace std;
@@ -30,4 +30,4 @@ public:
 	void returnMoney();
 	void cook();
 	void finish();
-}
+};
