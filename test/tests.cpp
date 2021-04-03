@@ -2,6 +2,7 @@
 #include "Automata.h"
 
 // остальные кейсы я рассмотрел в main
+
 TEST(task, test1)
 {
 	Automata hot_drinks_machine = Automata();
