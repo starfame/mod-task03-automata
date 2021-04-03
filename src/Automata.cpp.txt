@@ -72,9 +72,12 @@ int Automata::choice(unsigned int CHOICE)
 		{
 			throw 0;
 		}
-		state = CHECK;
-		check(CHOICE);
-		return 1;
+		else
+		{
+			state = CHECK;
+			check(CHOICE);
+			return 1;
+		}
 	}
 	catch(int i)
 	{
