@@ -1,7 +1,7 @@
 #include "Automata.h"
 using namespace std;
 
-void returnMoney()
+void Automata::returnMoney()
 {
 	cash = 0;
 }
@@ -34,13 +34,11 @@ void Automata::on()
 		menu[0] = "coffee";
 		menu[1] = "tea";
 		menu[2] = "water";
-		prices = new string[3];
-		prices[0] = "99";
-		prices[1] = "59";
-		prices[2] = "39";
+		prices = new int[3];
+		prices[0] = 99;
+		prices[1] = 59;
+		prices[2] = 39;
 	}
-	else 
-		continue;
 }
 void Automata::off()
 {
@@ -61,7 +59,7 @@ bool Automata::check(int CHOICE)
 	}
 	else
 		cash -= prices[CHOICE-1];
-		cook;
+		cook();
 }
 
 int Automata::choice(unsigned int CHOICE)
